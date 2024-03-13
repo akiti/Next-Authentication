@@ -17,7 +17,7 @@ const Header: FC<HeaderProps> = (prosp) => {
   return (
     <div className="w-full flex flex-col gap-y-4 items-center justify-center">
       <h1 className={ cn("text-3xl font-semibold", poppins.className) }>
-        Auth
+        Data Catch Camp
       </h1>
       <p className="text-muted-foreground text-sm">
         { label }
